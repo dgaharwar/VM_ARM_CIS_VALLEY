@@ -3,7 +3,7 @@
     "contentVersion": "1.0.0.0",
     "parameters": {
         "location": {
-            "value": "francecentral"
+            "value": "uksouth"
         },
         "networkInterfaceName": {
             "value": "test-arm-sql244"
@@ -12,7 +12,7 @@
             "value": "Subnet-Prod-ManagedServices"
         },
         "virtualNetworkId": {
-            "value": "/subscriptions/4569c8d3-e19b-4332-8a3b-f545256b9f7e/resourceGroups/Prod-Tools-ManagedServices/providers/Microsoft.Network/virtualNetworks/VNET-Prod-ManagedServices"
+            "value": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/dg-ops/providers/Microsoft.Network/virtualNetworks/dg-ops-vnet"
         },
         "virtualMachineName": {
             "value": "Test-ARM-SQL"
@@ -110,7 +110,7 @@
             "value": "Detach"
         },
         "adminUsername": {
-            "value": "admincis"
+            "value": "admindg"
         },
         "adminPassword": {
             "value": null
@@ -122,7 +122,7 @@
             "value": false
         },
         "sqlVirtualMachineLocation": {
-            "value": "francecentral"
+            "value": "uksouth"
         },
         "sqlVirtualMachineName": {
             "value": "Test-ARM-SQL"
