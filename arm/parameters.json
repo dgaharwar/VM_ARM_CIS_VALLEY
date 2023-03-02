@@ -40,7 +40,7 @@
                     "id": null,
                     "name": "Test-ARM-SQL_DataDisk_0",
                     "storageAccountType": null,
-                    "diskSizeGB": null,
+                    "diskSizeGB": 1024,
                     "diskEncryptionSet": null
                 },
                 {
@@ -52,7 +52,7 @@
                     "id": null,
                     "name": "Test-ARM-SQL_DataDisk_1",
                     "storageAccountType": null,
-                    "diskSizeGB": null,
+                    "diskSizeGB": 1024,
                     "diskEncryptionSet": null
                 },
                 {
@@ -64,7 +64,7 @@
                     "id": null,
                     "name": "Test-ARM-SQL_DataDisk_2",
                     "storageAccountType": null,
-                    "diskSizeGB": null,
+                    "diskSizeGB": 1024,
                     "diskEncryptionSet": null
                 }
             ]
@@ -75,7 +75,7 @@
                     "name": "Test-ARM-SQL_DataDisk_0",
                     "sku": "Premium_LRS",
                     "properties": {
-                        "diskSizeGB": 8,
+                        "diskSizeGB": 1024,
                         "creationData": {
                             "createOption": "Empty"
                         }
@@ -85,7 +85,7 @@
                     "name": "Test-ARM-SQL_DataDisk_1",
                     "sku": "Premium_LRS",
                     "properties": {
-                        "diskSizeGB": 8,
+                        "diskSizeGB": 1024,
                         "creationData": {
                             "createOption": "Empty"
                         }
@@ -95,7 +95,7 @@
                     "name": "Test-ARM-SQL_DataDisk_2",
                     "sku": "Premium_LRS",
                     "properties": {
-                        "diskSizeGB": 8,
+                        "diskSizeGB": 1024,
                         "creationData": {
                             "createOption": "Empty"
                         }
@@ -176,7 +176,7 @@
             "value": 1
         },
         "dataFileSize": {
-            "value": 8
+            "value": 1024
         },
         "dataGrowth": {
             "value": 64
