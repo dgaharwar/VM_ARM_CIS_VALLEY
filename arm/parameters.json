@@ -9,7 +9,7 @@
             "value": "test-arm-sql244"
         },
         "subnetName": {
-            "value": "Subnet-Prod-ManagedServices"
+            "value": "default"
         },
         "virtualNetworkId": {
             "value": "/subscriptions/3b6ff759-299c-4a48-bef8-d1e612b57658/resourceGroups/dg-ops/providers/Microsoft.Network/virtualNetworks/dg-ops-vnet"
